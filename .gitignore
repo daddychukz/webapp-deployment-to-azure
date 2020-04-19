@@ -1,0 +1,4 @@
+creds.sh
+terraform.tfstate*
+*.tfvars
+.terraform/
