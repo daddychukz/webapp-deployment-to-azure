@@ -3,7 +3,7 @@ variable "webapp_name" {
   description = "Name of azure webapp"
 }
 
-variable "webapp_deployment_ame" {
+variable "webapp_deployment_name" {
   type        = string
   description = "Deployment name"
 }
