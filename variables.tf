@@ -1,29 +1,34 @@
-variable "webappName" {
+variable "webapp_name" {
   type        = string
   description = "Name of azure webapp"
 }
 
-variable "webappDeploymentName" {
+variable "webapp_deploymentName" {
   type        = string
   description = "Deployment name"
 }
 
-variable "skuName" {
+variable "sku_name" {
   type        = string
   description = "The SKU name of App Service Plan"
 }
 
-variable "skuTier" {
+variable "sku_tier" {
   type        = string
   description = "The SKU tier of App Service Plan"
 }
 
-variable "resourceGroupName" {
+variable "resource_group_name" {
   type        = string
   description = "The name of resource group"
 }
 
-variable "rgLocation" {
+variable "rg_location" {
   type        = string
   description = "Location of resource group"
+}
+
+variable "deployment_count" {
+  type        = number
+  description = "Number of template deployments"
 }
