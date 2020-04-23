@@ -18,5 +18,4 @@ resource "azurerm_template_deployment" "azure_web_app" {
   }
 
   deployment_mode = "Incremental"
-  depends_on      = [azurerm_resource_group.example]
 }
